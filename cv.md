@@ -3,6 +3,7 @@
 ###My goal:
 *To be frontender
 *Be a professionnal
+*Help to other guys to reach their goals in IT 
 ###My experience:
 *Assistant of frontend courses
 *System administration
