@@ -1,31 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My CV</title>
-</head>
-<body>
-  <header>
-      <h1>CVAidarBirzhanov.</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>My CV</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="header__nav">
+          <ul class="header__ul">
+            <li class="header__ul-item">
+              <a class="header__link" href="#about">About</a>
+            </li>
+            <li class="header__ul-item">
+              <a class="header__link" href="#projects">Projects</a>
+            </li>
+            <li class="header__ul-item">
+              <a class="header__link" href="#skills">Skills</a>
+            </li>
+            <li class="header__ul-item">
+              <a class="header__link" href="#code__example">Code example</a>
+            </li>
+            <li class="header__ul-item">
+              <a class="header__link" href="#education"
+                >Education and english level</a
+              >
+            </li>
+            <li class="header__ul-item">
+              <a class="header__link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <img src="./img/ava.png" alt="Avatar">
-      <section>
-        <h2>MyCV.</h2>
-        <div>
-          <p>Skills.</p>
-          <ul>
-            <li>HTML.</li>
-            <li>CSS.</li>
-            <li>JavaScript.</li>
-          </ul>
-        </div>
-      </section>
+      <div class="container">
+        <section class="main__title">
+          <img
+            src="./img/831244FA-C1F7-4CFE-B1B4-A916C2218A07 (1).png"
+            alt=""
+            class="main__title-img"
+          />
+          <div class="main__content">
+            <h1>Aidar Birzhanov</h1>
+            <h2>Front-End Developer</h2>
+          </div>
+        </section>
+        <section class="main__about">
+          <h2 id="about">About</h2>
+          <p>I am intern Front-End Developer from Kazakhstan</p>
+          <p>I have knowledge of HTML, CSS, Native JS, Vue 3</p>
+          <p>
+            Currently i am System Administration specalist, and trying learn
+            Front-End Development
+          </p>
+        </section>
+        <section class="main__projects">
+          <h2 id="projects">Projects</h2>
+          <div class="project__items">
+            <div class="project__item">
+              <h3>Class schedule Telegram bot</h3>
+              <img src="./img/telegram__bot.jfif" alt="" />
+              <div class="project__item-link">
+                <a href="https://github.com/aidarbirzhanov/Auesschedulebot"
+                  >Github</a
+                >
+              </div>
+            </div>
+            <div class="project__item">
+              <h3>React quizz app</h3>
+              <img src="./img/quiz__app.jfif" alt="telegram bot" />
+              <div class="project__item-link">
+                <a href="https://github.com/aidarbirzhanov/Auesschedulebot"
+                  >Github</a
+                >
+              </div>
+            </div>
+            <div class="project__item">
+              <h3>Todo list</h3>
+              <img src="./img/todo__list.png" alt="todo list" />
+              <div class="project__item-link">
+                <a href="https://github.com/aidarbirzhanov/todolist">Github</a>
+              </div>
+            </div>
+            <div class="project__item">
+              <h3>Calculator</h3>
+              <img src="./img/calculator.jfif" alt="todo list" />
+              <div class="project__item-link">
+                <a href="https://github.com/aidarbirzhanov/calculator-vanillajs"
+                  >Github</a
+                >
+              </div>
+            </div>
+            <div class="project__item">
+              <h3>Food recipt app</h3>
+              <img src="./img/food__api.png" alt="food api" />
+              <div class="project__item-link">
+                <a href="https://github.com/aidarbirzhanov/food-api-app"
+                  >Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__skills">
+          <h2 id="skills">Skills</h2>
+          <h4>HTML</h4>
+          <h4>CSS</h4>
+          <h4>Javascript</h4>
+          <h4>Vue 3</h4>
+        </section>
+        <section class="main__code">
+          <div class="section-header">
+            <h3 id="code__example">Code Example</h3>
+          </div>
+          <div class="code__content">
+            <pre><code class="code" id="code">const todoInput = document.querySelector('.todo-input');
+              const todoButton = document.querySelector('.todo-button');
+              const todoList = document.querySelector('.todo-list');
+              todoButton.addEventListener('click', addTodo);
+              todoList.addEventListener('click', deleteCheck);
+}</code></pre>
+          </div>
+        </section>
+        <section class="main__education">
+          <h2 id="education">Education and English level</h2>
+          <div class="main__education-content">
+            <p>2018-2022</p>
+            <p>Bachelor's degree</p>
+            <p>Radio engineering electronics and telecommunications</p>
+            <p>Almaty institute of power engineering and telecommunications</p>
+          </div>
+          <p>English level - B1</p>
+        </section>
+      </div>
     </main>
     <footer>
-      <h1>AidarBirzhanov</h1>
+      <div class="container">
+        <h4 id="contacts">Contacts</h4>
+        <div class="footer__links">
+          <a href="https://github.com/aidarbirzhanov" target="_blank">Github</a>
+          <a href="https://rs.school/" target="_blank"
+            ><img src="./img/rs-school-logo.png" alt="Rs School"
+          /></a>
+          <a href="mailto: birzhanov.aydar@gmail.com" target="_blank">Mail</a>
+          <a
+            href="https://www.linkedin.com/in/aidar-birzhanov-091957242/"
+            target="_blank"
+            >Linkedin</a
+          >
+          <a href="tel:+7(706)9060011">+7(706)9060011</a>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
