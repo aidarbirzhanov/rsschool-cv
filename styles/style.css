@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1d262d;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+header {
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.header__link:hover {
+  color: slateblue;
+  transition: 0.8s all ease;
+}
+.header__ul {
+  display: flex;
+  justify-content: space-around;
+}
+main {
+  margin-bottom: 100px;
+}
+.main__title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+.main__title-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+}
+.main__code{
+  margin-bottom: 100px;
+}
+.main__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main__content h1,
+h2 {
+}
+.main__content h1 {
+  font-size: 70px;
+}
+.main__content h2 {
+  font-size: 50px;
+}
+.main__about {
+  margin-bottom: 100px;
+}
+.main__about h2 {
+  text-decoration: underline;
+}
+.main__about p {
+  font-size: 30px;
+  margin: 10px;
+}
+.main__projects {
+  margin-bottom: 100px;
+}
+.main__projects h2 {
+  text-decoration: underline;
+}
+.project__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project__item {
+  width: 400px;
+}
+.project__item h3 {
+  margin-bottom: 20px;
+}
+.project__item img {
+  margin-bottom: 20px;
+}
+.main__skills {
+  margin-bottom: 100px;
+}
+.main__skills h2 {
+  text-decoration: underline;
+}
+.main__skills h4 {
+  padding: 20px;
+  font-size: 50px;
+}
+.main__education h2 {
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.main__education-content {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+footer h4 {
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+footer {
+  padding: 20px;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
